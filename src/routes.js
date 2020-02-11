@@ -17,7 +17,7 @@ routes.get('/spots', SpotController.index);
 
 routes.get('/dashboard', DashboardController.show);
 
-routes.post('/spots/:id/bookings', BookingController);
+routes.post('/spots/:id/bookings', BookingController.store);
 
 
 
